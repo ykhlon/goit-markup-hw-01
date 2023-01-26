@@ -69,21 +69,80 @@ body {
     background-color: var(--bgcolor-dark);
 }
 .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-style: normal;
     color: var(--white-color);
+
 }
-.hero-link {
-    color: var(--white-color);
-    background-color: var(--accent-color);
+/* button */
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
     text-decoration: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    /* identical to box height, or 188% */
+    letter-spacing: 0.06em;
 }
-/* section */
-.section-title, .section-caption {
+.btn-primary {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+
+}
+
+/* section specifics */
+
+.specifics-caption {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--dark-gray-color);
+}
+.specifics-content{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* section objectives */
+
+.objectives-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
     color: var(--dark-gray-color);
 }
 
+/* section team */
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--dark-gray-color);
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--dark-gray-color);
+}
+.team-position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
 /* footer */
+
 .site-footer {
     background-color: var(--bgcolor-dark);
 }
